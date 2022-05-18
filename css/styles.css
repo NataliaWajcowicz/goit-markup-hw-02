@@ -1,0 +1,33 @@
+body a{ 
+    text-decoration:none;
+   
+}
+
+ul{
+    list-style-type:none;
+}
+.logo{
+    position:absolute;
+    width:145px;
+    height:31px;
+    left:215px;
+    font-family:'Raleway';
+    font-style:normal;
+    font-weight: 700;
+    font-size:26px;
+    line-height:31px;
+    letter-spacing:0.03;
+    color:black;
+}
+
+.logo-accent{
+    color: #2196F3;
+}
+
+.menu {
+    position:absolute;
+    width:254px;
+    height:16px;
+    left:453px;
+    top:32px;
+}
