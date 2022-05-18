@@ -31,3 +31,20 @@ ul{
     left:453px;
     top:32px;
 }
+
+.contact{
+    height:16px;
+    top:32px;
+}
+
+.contact-mail {
+    position:absolute;
+    width:135px;
+    left:1078px;
+}
+
+.contact-tel{
+    position:absolute;
+    width:110px;
+    left:1263px;
+}
