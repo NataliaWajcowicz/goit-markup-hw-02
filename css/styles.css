@@ -1,5 +1,4 @@
 body{
-    position:relative;
     width:1600px;
     height:2349px;
     font-family: 'Roboto' sans-serif;
@@ -9,7 +8,6 @@ body{
 body a{ 
     text-decoration:none;
     color:inherit;
-   
 }
 
 ul{
@@ -209,7 +207,7 @@ button{
     font-weight:700;
     line-height:1.14em;
     text-transform:uppercase;
-    color:#212121
+    color:#212121;
     margin:0;
 }
 
@@ -226,7 +224,7 @@ button{
     width:1170px;
     height:386px;
     left:215px;
-    top:969px;
+    top:94px;
 }
 
 .services-title{
@@ -259,6 +257,7 @@ button{
     display: block;
     float: left;
     position:absolute;
+    top:50px;
 }
 
 .service1{
@@ -271,4 +270,107 @@ button{
 
 .service3{
     left:1015px;
+}
+
+.team{
+    position:absolute;
+    width:1600px;
+    height:648px;
+    left:0px;
+    top:1449px;
+}
+
+.team-title{
+    position:absolute;
+    width:210px;
+    height:42px;
+    left:695px;
+    top:1543px;
+    font-weight:700;
+    font-size:36px;
+    line-height:1.17;
+    text-align:center;
+    letter-spacing:0.03em;
+}
+
+.team-photos:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+.team-photos{
+    position:absolute;
+    width:1170px;
+    height:368px;
+    left:215px;
+    top:1635px;
+}
+
+.team-member1,
+.team-member2,
+.team-member3,
+.team-member4{
+    display:block;
+    float:left;
+    position:absolute;
+    height:368px;
+    width:215px;
+}
+
+.team-member1{
+    left: 215px;
+}
+
+.team-member2{
+    left:515px;
+}
+
+.team-member3{
+    left:815px;
+}
+
+.team-member4{
+    left:1115px;
+}
+
+
+.team-photo{
+    position:absolute;
+    height:260px;
+    top:1635px;
+    border-radius:0px;
+}
+
+.team-name{
+    position:absolute;
+    width:72px;
+    height:19px;
+    top:1925px;
+    font-weight:500;
+    font-size:16px;
+    line-height:1.19;
+    text-align:center;
+    letter-spacing:0.03em;
+}
+
+.team-position{
+    position:absolute;
+    width:87px;
+    height:19px;
+    top:1954px;
+    font-weight:400;
+    font-size:16px;
+    line-height:1.19;
+    text-align:center;
+    letter-spacing:0.03em;
+    color:#757575;
+
+}
+
+footer {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    top: 2097px;
 }
