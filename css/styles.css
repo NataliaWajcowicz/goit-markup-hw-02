@@ -1,10 +1,12 @@
 :root {
     --brand-color: #2196F3;
+    --dark-background-color: #2F303A;
+    --light-color:#FFFFFF;
 }
 body{
     font-family: 'Roboto', 'Raleway', sans-serif;
     color:#212121;
-    background-color:#FFFFFF;
+    background-color:var(--light-color);
 }
 body a{ 
     text-decoration:none;
@@ -58,7 +60,7 @@ color:var(--brand-color);
 }
 
 .header{
-    background-color:#2F303A;
+    background-color: var(--dark-background-color);
 }
 
 .title{
@@ -68,12 +70,12 @@ color:var(--brand-color);
     text-align:center;
     letter-spacing:0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--light-color);
 }
 
 button{
     background-color:var(--brand-color);
-    color: #FFFFFF;
+    color: var(--light-color);
     font-weight:700;
     font-size:16px;
     line-height:1.88;
@@ -133,11 +135,11 @@ button{
 }
 
 footer{
-    background-color:#2F303A;
+    background-color:var(--dark-background-color);
     font-size:14px;
     line-height:1.71;
     letter-spacing:0.03em;
-    color:#FFFFFF;
+    color: var(--light-color);
 }
 
 .address-tel,
@@ -161,7 +163,7 @@ footer{
 .button:hover,
 .button:focus{
     background-color: var(--brand-color);
-    color:#FFFFFF;
+    color: var(--light-color);
 }
 
 .project-name{
