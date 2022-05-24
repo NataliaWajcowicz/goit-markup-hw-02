@@ -13,6 +13,11 @@ body a{
     color:inherit;
 }
 
+body a:hover,
+body a:focus{
+    color:var(--brand-color)
+}
+
 .portfolio-body{
     background-color: #E5E5E5;
 }
@@ -41,22 +46,10 @@ ul{
     color: var(--brand-color);
 }
 
-.menu-link:hover,
-.menu-link:focus
-{
-color:var(--brand-color);
-}
 
 .contact-tel
 .contact-mail{
     color:#757575
-}
-
-.contact-mail:hover,
-.contact-mail:focus,
-.contact-tel:hover,
-.contact-tel:focus{
-    color:var(--brand-color);
 }
 
 .header{
@@ -147,7 +140,7 @@ footer{
     color:rgba(255, 255, 255, 0.6)
 }
 
-.projects{
+.project{
     font-size:16px;
     letter-spacing: 0.03em;
 }
