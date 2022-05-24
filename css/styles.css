@@ -15,7 +15,7 @@ body a{
 
 body a:hover,
 body a:focus{
-    color:var(--brand-color)
+    color:var(--brand-color);
 }
 
 .portfolio-body{
@@ -49,7 +49,7 @@ ul{
 
 .contact-tel
 .contact-mail{
-    color:#757575
+    color:#757575;
 }
 
 .header{
@@ -137,7 +137,14 @@ footer{
 
 .address-tel,
 .address-mail,{
-    color:rgba(255, 255, 255, 0.6)
+    color:rgba(255, 255, 255, 0.6);
+}
+
+.address-tel:hover,
+.address-tel:focus,
+.address-mail:focus,
+.addres-mail:hover{
+    color:var(--brand-color);
 }
 
 .project{
