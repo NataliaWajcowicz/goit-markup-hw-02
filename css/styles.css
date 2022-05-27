@@ -19,7 +19,7 @@ body a:focus{
 }
 
 .portfolio-body{
-    background-color: #E5E5E5;
+    background-color: var(--light-color);
 }
 
 ul{
@@ -27,7 +27,7 @@ ul{
 }
 
 .main-menu{
-    background-color:#ECECEC;
+    background-color:var(--light-color);
     font-size:14px;
     font-weight:500;
     line-height:1.14;
@@ -101,6 +101,10 @@ button{
     line-height:1.17;
     text-align:center;
     letter-spacing:0.03em;
+}
+
+.team{
+    background-color: #F5F4FA;
 }
 
 .team-title{
